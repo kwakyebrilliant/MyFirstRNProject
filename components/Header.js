@@ -1,4 +1,3 @@
-/* eslint-disable react-native/no-inline-styles */
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
@@ -11,20 +10,20 @@ const Header = ({title}) => {
 };
 
 Header.defaultProps = {
-    title: 'Shopping List'
-}
+  title: 'Shopping List',
+};
 
 const styles = StyleSheet.create({
   header: {
     height: 60,
     padding: 15,
-    backgroundColor: '#fff',
+    backgroundColor: 'darkslateblue',
   },
   text: {
-    color: 'darkslateblue',
+    color: 'white',
     fontSize: 23,
     textAlign: 'center',
-  }
+  },
 });
 
 export default Header;
